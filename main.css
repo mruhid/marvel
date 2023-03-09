@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+  
+  body {
+    background-image: url(https://i.pinimg.com/originals/7b/15/33/7b1533e189adab8c2b03272e8938a567.jpg);
+    background-size: cover;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.75;
+  }
+  body .full_body content div {
+    padding: 20px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 90px;
+    border-style: solid;
+    border-bottom: 17px;
+    border-color: #3c648d;
+    background-color: #ffffff;
+    font-size: 24px;
+  }
+  body .yuxari_hisse {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    border-bottom: 3px;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: rgb(0, 0, 0);
+    background-color: black;
+  }
+  body .yuxari_hisse h3 {
+    color: rgb(0, 0, 0);
+    margin-top: 0px 5px 0px 0px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 30px;
+    border-bottom: 4px;
+    background-color: #ffffff;
+    border-color: #3c648d;
+    font-size: 25px;
+  }
+  body .yuxari_hisse h3:hover {
+    color: rgb(131, 80, 80);
+  }
+  body .yuxari_hisse ul {
+    
+    display: flex;
+    justify-self: end;
+    align-items: center;
+    gap: 28px;
+  }
+  body .yuxari_hisse ul li {
+    float: left;
+    margin-right: 50px;
+  }
+  body .yuxari_hisse ul li a {
+    display: flex;
+    align-items: end;
+    color: rgb(255, 255, 255);
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 23px;
+  }
+  body .yuxari_hisse ul li a:hover {
+    color: rgb(131, 80, 80);
+  }
+  body footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+  .esas{
+    padding: 10px;
+    margin: 15px 30px;
+    background-color: #EC008c;
+    border-radius: 6%;
+   
+  }
+  .esas a:hover{
+    color: #b1056c;
+  }/*# sourceMappingURL=main.css.map */

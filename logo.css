@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    height: 120px;
+  }
+  nav img {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 17px;
+    margin: 0;
+    width: 300px;
+    height: 120px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  nav ul {
+    display: flex;
+    justify-self: end;
+    align-items: center;
+    gap: 18px;
+    margin-right:50px;
+    position:absolute;
+    top:5%;
+    right:0;
+  }  
+  nav ul li {
+    list-style: none;
+    margin-right:50px;
+
+
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    
+   
+   
+  }
+  nav ul li a:hover{
+    color: rgb(85, 81, 81);
+  }
+  
+  body {
+    background-color:#FFDE00;
+  }
+  body .body_size .body_left {
+    padding: 20px;
+    width: 642px;
+    margin-top: 20px;
+    background-color: #fff;
+  }
+  body .body_size .body_left h3 {
+    color: yellow;
+    font-size: 26px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 27px;
+    padding-bottom: 20px;
+  }
+ 
+  body .body_size .body_left p {
+    color: grey;
+  }
+  body .body_size .body_left_contact {
+    padding: 20px;
+    width: 642px;
+    margin-top: 20px;
+    background-color: #fff;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body .body_size .body_left_contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 15px;
+  }
+  body .body_size .body_left_contact form label {
+    font-size: 17px;
+    color: #000000;
+  }
+  body .body_size .body_left_contact form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(184, 175, 175);
+  }
+  body .body_size .body_left_contact form textarea {
+    width: 100%;
+    border: 1px solid rgb(184, 175, 175);
+  }
+  body .body_size .body_left_contact form #submit {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border: 1px solid transparent;
+    font-size: 24px;
+    
+
+  }
+  body .body_size .body_left_contact h3 {
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 27px;
+    padding-bottom: 20px;
+  }
+  .esas{
+    padding: 15px 30px;
+    background-color: #EC008c;
+    border-radius: 4%;
+  }
+  .esas a:hover{
+    color: #b1056c;
+  }
+  body footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
